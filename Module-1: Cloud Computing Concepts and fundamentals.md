@@ -1,6 +1,9 @@
 # Chapter 1
+### Client Server Model
+In computing, a client can be a web browser or desktop application that a person interacts with to make requests to computer servers. A server can be services, such as Amazon Elastic Compute Cloud (Amazon EC2) – a type of virtual server.
+
 ### Cloud computing:
-Cloud computing is defined as on demand delivery of compute resources, databases, storage applications and other reosurces over the internet with a pay as you go pricing model.
+Cloud computing is defined as on demand delivery of compute resources, databases, storage applications and other reosurces over the internet with a pay as you go pricing model.Its main aim is to get rid of undifferentiated heavy IT lifting.
 
 ### Evolution of hosting:
   1. **DEDICATED SERVERS** for running a single business. Expensive and require high maintainance
@@ -22,7 +25,7 @@ The traditional hardware based infrastructure implementation requires guessing u
 2.Going Global in minutes: 
 Globalisation is easier with cloud as deployment is done over the internet while in case of physical infrastructure implementation, it is not possible to connect or transfer data around different places easily.
 
-3. No limits over capacity in cloud as compared to physical model , as everything is automated and software based leading to incresed scalability
+3. No limits over capacity in cloud as compared to physical model , as everything is automated and software based leading to incresed scalability.
 
 4. Increased Speed and Agility
 
