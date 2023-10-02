@@ -9,7 +9,7 @@ The inbound data transfer/ traffic is free for all users. The AWS follows some c
    You only pay for what you use, how much you use and how long you use the services. There is not additional upfront expense. This leads to econimical expenditure on the part of the client and there is reduced operational expenditure. Focus is on demand of the resources when needed.
 
 2.**PAY LESS BY USING MORE:**
-   We can realise the volume discounts of AWS in terms of tiered pricing and savings model. The volume discounts are economical in a nature and are cost controlling.Some services offer reservation options that provide a significant discount compared to On-Demand Instance pricing. Some services offer tiered pricing, so the per-unit cost is incrementally lower with increased usage.
+   We can realise the volume discounts of AWS in terms of tiered pricing and savings model. The volume discounts are economical in a nature and are cost controlling. Some services offer tiered pricing, so the per-unit cost is incrementally lower with increased usage.
 
 3.**PAY LESS AS AWS GROWS:**
     As the number of users increase the cost of a particular service decreases. As the services tools are enhanced, the faster high performing versions replace the current tools without extra charge as well.
@@ -19,6 +19,9 @@ The inbound data transfer/ traffic is free for all users. The AWS follows some c
 
 5.**AWS FREE TIER**:
    Beginner friendly pack for 1 year where multiple Amazon services are provided for free.
+
+6. **PAY LESS WHEN YOU RESERVE**
+   Some services offer reservation options that provide a significant discount compared to On-Demand Instance pricing.EG: You can save on AWS Lambda costs by signing up for a Compute Savings Plan. A Compute Savings Plan offers lower compute costs in exchange for committing to a consistent amount of usage over a 1-year or 3-year term. This is an example of paying less when you reserve. 
 
 ### Total Cost of Ownership
 The traditional infrastructure of computing requires huge captial expense and needs the client to guess upfront all the requirements he or she needs. This makes it inflexible and less scalable. Unlike Cloud computing models, there is variable expense and the CSP is responsible for running and maintaining the services, will you are concerned only about using them for you applications and there is a provision of easy scalability and adaptablility. 
@@ -48,7 +51,7 @@ An OU is ORGANISATIONAL UNIT that has standard AWS account and only has one pare
 The key benefits are:
 1. Group and Policy based account management policies
 2. Automated account management using APIs
-3. Consolidated billing
+3. **Consolidated billing**: One bill for all the accounts that use mutliple service but are under one primary account that is the root account. This eases the billing and the usage of services is rolled up to the organisational level. This also causes aggregate of all costs across all acounts leading to discount though bulk pricing of the services as its possible that only a small part is required by all the accounts.
 4. Service control policies and IAM roles and policies to control user access to services of Amazon.
 
 The Setup involes:
@@ -63,11 +66,11 @@ The Access is through- CLI , SDK, API and Management Console.
 ### AWS Billing and Cost Management
 This is done using the AWS BILLING DASHBOARD that has the following tools-
 #### 1. AWS Budgets: 
-A service to pay bills, forecast expenditure, moditor usage and budget and recommend optimisation for costs of the services being used. Helps in viewing the data on monthly/daily level of granuality. It helps in with AWS Budgets reports to create usage and expenditure reports that can be categorised on multiple levels of granuality for the user convenience.
+A service to pay bills, forecast expenditure, moditor usage and budget and recommend optimisation for costs of the services being used. Helps in viewing the data on monthly/daily level of granuality. It helps in with AWS Budgets reports to create usage and expenditure reports that can be categorised on multiple levels of granuality for the user convenience and also recieve alerts related to the budgeted amount and also helps in controlling the expense.
 #### 2. AWS Cost and Usage Reports:
 A service that helps in identifying the various techniques to optimise costs for various services being utilise by the account by analysing the usage trends. Generates the detailed spreadsheets that can be used by Athena and Quicksight for DB conversion and graphic visualisation.
 #### 3. AWS Cost Explorer:
-A part of the AWS Cost and Billing Management Console, it represents the costs of various AWS services for the last 3 months in visual format for report and analytics purpose. 
+A part of the AWS Cost and Billing Management Console, it represents the costs of various AWS services for the last 12 months in visual format for report and analytics purpose. Helps in cost optimisation and building tracking reports.
 #### 4. AWS Bills Page:
 List of all services that have been used by the linked account in the last 1 month.
 #### 5. Spend Summary 
@@ -76,12 +79,20 @@ Shows the past expenditure and the forecasted budget with respect to all the ser
 Shows the list of services in ration of the cost attributed to them over a certain period of time
 
 ### AWS Marketplace
-Its a cureated digital catalogue of all the services being provided by various vendors on AWS platform You can deal and buy the services here for free or on a minimal associated charge. The charge becomes a part of AWS bill and once you pay that then the Marketplace pays the vendor. The platform is also meant for sale of services as well.
+Its a cureated digital catalogue of all the services and third party softwares and products being provided by various vendors on AWS platform You can deal and buy the services here for free or on a minimal associated charge. The charge becomes a part of AWS bill and once you pay that then the Marketplace pays the vendor. The platform is also meant for sale of services as well.AWS Marketplace offers products in several categories, such as Infrastructure Software, DevOps, Data Products, Professional Services, Business Applications, Machine Learning, Industries, and Internet of Things (IoT).
+There are One Click Deployments, SLAs, annual licenses, free trials, custom rates, private marketplaces, integration in procurement systems, integration facilities and pay as you go options
 
 ### AWS Support Models
-AWS provides 4 plans- BASIC, DEVELOPER, BUSINESS AND ENTERPRISE.
+AWS provides 4 plans- 
+**BASIC**: 24/7 support, documentation, whitepapers, forums, trusted advisor and health dashboard- free of cost.
 
-The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews and information of latest trends. It helps on solving various technical issues, advocates for the customers, build solutions and ensures that the AWS environment remains operational and healthy. TAMs also collaborate with the developers for increased productivity and also understand the business needs and review any disruptions and metrics. They are available on the ENTERPRISE LEVEL ONLY.
+**DEVELOPER**: basic+email access to customer support +less than 12 hours of response in case of system impairment
+
+**BUSINESS** :basic+developer+full Trusted Advisor suite+phone call service with 4 hour response for system impairment and 1 hour in case of downtime and also help in events.
+
+**ENTERPRISE(On ramp/Main)**: lowers+15min-30min response for critical workloads + TAMs+deep dives and workshops with Training and Game Days to drive innovation.
+
+The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews using WAF and information of latest trends. It helps on solving various technical issues, advocates for the customers, build solutions and ensures that the AWS environment remains operational and healthy. TAMs also collaborate with the developers for increased productivity and also understand the business needs and review any disruptions and metrics. They are available on the ENTERPRISE LEVEL ONLY.
 
 The **AWS TRUSTED ADVISOR** is an automated service for recommending the best practices related to the billing and other aws aspects. Solves isses and checks for errors repeatedly.
 There are five categories of the checklist supported by the TRUSTED ADVISOR:
@@ -90,6 +101,8 @@ There are five categories of the checklist supported by the TRUSTED ADVISOR:
 3. Performance
 4. Fault Tolerance
 5. Service Limits
+
+**TRUSTED ADVISOR has the Lowest cost at BUSINESS PLAN.**
 
 The **AWS Partner Network** is basically a global partner program where organsatins open themselves for collaboration with AWS and to business oppoertunities including exclusive training and martketing events.
 
