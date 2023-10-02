@@ -74,7 +74,9 @@ Shows the list of services in ration of the cost attributed to them over a certa
 
 ### AWS Support Models
 AWS provides 4 plans- BASIC, DEVELOPER, BUSINESS AND ENTERPRISE.
+
 The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews and information of latest trends
+
 The **AWS TRUSTED ADVISOR** is an automated service for recommending the best practices related to the billing and other aws aspects. Solves isses and checks for errors repeatedly.
 
 
