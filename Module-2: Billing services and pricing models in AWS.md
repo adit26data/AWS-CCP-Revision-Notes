@@ -29,9 +29,12 @@ Considerations to be made are:
   2. **NETWORKING COSTS**- involves load balancing, network adminstration and local area network setup costs
   3. **STORAGE COSTS**-involves the storage administration, disks and fibre channel switches.
   4. **IT LABOUR COSTS**- involves adminstration costs
+As per Garter-Cloud computing services are intitally more expensive that the on premises ones, but become cost effective over period time with proper training and usage of the cloud resources.
 
 #### AWS pricing calculator
-Responsible for calculating and estimating the monthly costs, estimating the optimised lower costs and how we can reduce them. Explore the price points and determine the available instances that we might need in the future as well.
+Responsible for calculating and estimating the monthly costs, estimating the optimised lower costs and how we can reduce them. Explore the price points and determine the available instances that we might need in the future as well. It is a free tool and is used for helping in cloud migration
+#### Migration Evaluator
+A free service tool that extracts the data from your on premises resources to extract your AWS cloud cost in comparison to yout traditional on premises cost. Helps in cloud migration of a firm.
 
 Addtional benefits to consider in TCO are:
 1. **HARD BENEFITS**: reduction in expenditure of space and facility , procurement cycle of software and hardware resources and reduction in OpEx and administrative personnel.
@@ -72,12 +75,34 @@ Shows the past expenditure and the forecasted budget with respect to all the ser
 #### 6. Month to Date Spend by Service
 Shows the list of services in ration of the cost attributed to them over a certain period of time
 
+### AWS Marketplace
+Its a cureated digital catalogue of all the services being provided by various vendors on AWS platform You can deal and buy the services here for free or on a minimal associated charge. The charge becomes a part of AWS bill and once you pay that then the Marketplace pays the vendor. The platform is also meant for sale of services as well.
+
 ### AWS Support Models
 AWS provides 4 plans- BASIC, DEVELOPER, BUSINESS AND ENTERPRISE.
 
-The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews and information of latest trends
+The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews and information of latest trends. It helps on solving various technical issues, advocates for the customers, build solutions and ensures that the AWS environment remains operational and healthy. TAMs also collaborate with the developers for increased productivity and also understand the business needs and review any disruptions and metrics. They are available on the ENTERPRISE LEVEL ONLY.
 
 The **AWS TRUSTED ADVISOR** is an automated service for recommending the best practices related to the billing and other aws aspects. Solves isses and checks for errors repeatedly.
+There are five categories of the checklist supported by the TRUSTED ADVISOR:
+1. Optimisation
+2. Security
+3. Performance
+4. Fault Tolerance
+5. Service Limits
+
+### Service Level Agreements
+SLAS are formal committments made between the customer and the service provider regarding the expected service levels and if not met, the customer is entitled for compensation
+### Service Level Indicators
+SLIs are formal metrics that show the service levels that a customer is recieving in current time.
+### Service Level Objective
+The objectives that a provided service is to meet.
+### Service Health Dashboard
+Shows general status of the AWS services
+### Personal Health Dashboard
+provides guidance and alerts on AWS events that might harm the environment.
+
+
 
 
 
