@@ -8,7 +8,7 @@ The inbound data transfer/ traffic is free for all users. The AWS follows some c
 1.**PAY AS YOU GO PRICING:**
    You only pay for what you use, how much you use and how long you use the services. There is not additional upfront expense. This leads to econimical expenditure on the part of the client and there is reduced operational expenditure. Focus is on demand of the resources when needed.
 
-2.**PAY LESS BY USING MORE:**
+2.**PAY LESS BY RESERVING:**
    We can realise the volume discounts of AWS in terms of tiered pricing and savings model. The volume discounts are economical in a nature and are cost controlling.
 
 3.**PAY LESS AS AWS GROWS:**
