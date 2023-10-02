@@ -39,6 +39,43 @@ Addtional benefits to consider in TCO are:
 
 TCO takes in hard benefits as quantifiable physical benefits while soft benefits are value points that are not easily quantified.
 
+### AWS ORGANISATIONS
+Aws Organisation is a service to consolidate mutliple AWS accounts under one primary user/ organsational tree to consolidate the billing procedure and use organisational security features.
+An OU is ORGANISATIONAL UNIT that has standard AWS account and only has one parent and belongs to one branch of the tree.
+The key benefits are:
+1. Group and Policy based account management policies
+2. Automated account management using APIs
+3. Consolidated billing
+4. Service control policies and IAM roles and policies to control user access to services of Amazon.
+
+The Setup involes:
+1. Create an organisation with a primary account
+2. Create OUs
+3. Add accounts to the OUs
+4. Create an SCP
+5. Test the restictions using IAM simulator.
+
+The Access is through- CLI , SDK, API and Management Console.
+
+### AWS Billing and Cost Management
+This is done using the AWS BILLING DASHBOARD that has the following tools-
+#### 1. AWS Budgets: 
+A service to pay bills, forecast expenditure, moditor usage and budget and recommend optimisation for costs of the services being used. Helps in viewing the data on monthly/daily level of granuality.
+#### 2. AWS Cost and Usage Reports:
+A service that helps in identifying the various techniques to optimise costs for various services being utilise by the account by analysing the usage trends.
+#### 3. AWS Cost Explorer:
+A part of the AWS Cost and Billing Management Console, it represents the costs of various AWS services for the last 3 months in visual format for report and analytics purpose. 
+#### 4. AWS Bills Page:
+List of all services that have been used by the linked account in the last 1 month.
+#### 5. Spend Summary 
+Shows the past expenditure and the forecasted budget with respect to all the services that are being used and can be used
+#### 6. Month to Date Spend by Service
+Shows the list of services in ration of the cost attributed to them over a certain period of time
+
+### AWS Support Models
+AWS provides 4 plans- BASIC, DEVELOPER, BUSINESS AND ENTERPRISE.
+The **Support Conceirge** has the THE AWS TECHNICAL ACCOUNT MANAGER on proactive guidance on billing, finance issues, architechtual reviews and information of latest trends
+The **AWS TRUSTED ADVISOR** is an automated service for recommending the best practices related to the billing and other aws aspects. Solves isses and checks for errors repeatedly.
 
 
 
