@@ -63,9 +63,9 @@ The Access is through- CLI , SDK, API and Management Console.
 ### AWS Billing and Cost Management
 This is done using the AWS BILLING DASHBOARD that has the following tools-
 #### 1. AWS Budgets: 
-A service to pay bills, forecast expenditure, moditor usage and budget and recommend optimisation for costs of the services being used. Helps in viewing the data on monthly/daily level of granuality.
+A service to pay bills, forecast expenditure, moditor usage and budget and recommend optimisation for costs of the services being used. Helps in viewing the data on monthly/daily level of granuality. It helps in with AWS Budgets reports to create usage and expenditure reports that can be categorised on multiple levels of granuality for the user convenience.
 #### 2. AWS Cost and Usage Reports:
-A service that helps in identifying the various techniques to optimise costs for various services being utilise by the account by analysing the usage trends.
+A service that helps in identifying the various techniques to optimise costs for various services being utilise by the account by analysing the usage trends. Generates the detailed spreadsheets that can be used by Athena and Quicksight for DB conversion and graphic visualisation.
 #### 3. AWS Cost Explorer:
 A part of the AWS Cost and Billing Management Console, it represents the costs of various AWS services for the last 3 months in visual format for report and analytics purpose. 
 #### 4. AWS Bills Page:
@@ -91,6 +91,8 @@ There are five categories of the checklist supported by the TRUSTED ADVISOR:
 4. Fault Tolerance
 5. Service Limits
 
+The **AWS Partner Network** is basically a global partner program where organsatins open themselves for collaboration with AWS and to business oppoertunities including exclusive training and martketing events.
+
 ### Service Level Agreements
 SLAS are formal committments made between the customer and the service provider regarding the expected service levels and if not met, the customer is entitled for compensation
 ### Service Level Indicators
@@ -101,6 +103,19 @@ The objectives that a provided service is to meet.
 Shows general status of the AWS services
 ### Personal Health Dashboard
 provides guidance and alerts on AWS events that might harm the environment.
+### AWS Abuse
+The AWS Abuse team deals with attempts to damage the AWS environments like DDOS, DOS, intrustion, spamming and port scanning.
+
+### Cost Allocation Tags
+Optional metadata that when added to a service helps in better analysis of cost and usage tracking of that particular service.They are of 2 types- User and AWS defined.
+
+### Billing Alarms
+They are alerts to warn of over expense.
+
+
+
+
+
 
 
 
