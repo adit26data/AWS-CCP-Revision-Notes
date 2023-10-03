@@ -59,7 +59,7 @@ A fully managed service that helps in controlling data satellite communication a
 
     d. AWS ELASTIC CONTAINER REGISTRY OR AWS ECR: fully managed service that acts as a container registry system for docker images
 
-    e. AWS ELASTIC BEANSTALK: a web app hosting service
+    e. AWS ELASTIC BEANSTALK: a web app hosting service and also for provisioning EC2 based environments.
 
     f. AWS LAMBDA: a serverless compute option that helps in running code without need to provision or manage servers
 
@@ -131,6 +131,8 @@ A fully managed service that helps in controlling data satellite communication a
    e. AWS CloudTrail: tracks user activity and API usage across AWS accounts.
 
    f. AWS Outposts:AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location. Basically server racks in the data centers are provided here that are fully managed by the AWS and are basically to provide virtual AWS infrastructure at your own building
+
+   g. AWS CloudFormation: you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources. AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
      
    
 
