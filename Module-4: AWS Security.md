@@ -46,7 +46,25 @@ USER HSMs are validated using FIPS140-2 algorithm to protect the keys. The maste
 An AWS service that adds signup, login , mfa and other authentication and authorisation mechanisms to web app and mobile apps. Scales to multiple users and meets majority of security compliance requirements.
 
 ### AWS Shield
-A managed AWS DDOS protection service to keep AWS environments healthy. It also performs intrusion detection and has inline remediation strategies. Ensures minimum downtime and latency.
+A managed AWS DDOS protection service to keep AWS environments healthy. It also performs intrusion detection and has inline remediation strategies. Ensures minimum downtime and latency. If you are routing your traffic through route 53 service then you are definately using standard Shield. Can be coupled with a firewall for better protection
+
+### AWS Inspector
+A service for hardening your AWS environment by eliminating all possible risks. Runs specific security benchmarks against EC2 instances. CSI check has 699 checks!
+
+### AWS Guard Duty
+A service that continuously monitors the AWS environments for malware, unauthorised activities, vulnerabilities and other problems and alerts the user and provides suggestions for remedial actions.
+
+### AWS Macie
+A fully managed service that monitors S3 data access and looks for malware and suspicious activities and has various alerts for various threats. It is very user friendly and also provides alersts on inadverant data leaks. It is integrated with CloudFront in some cases as well.
+
+**Both Guard Duty and Macie use ML to analyse the cloud trail logs, vpn logs, activities and other auditable information for their respective missions**
+
+### AWS WEB APPLICATION FIREWALL
+It is a protection tool to protect your web apps and mobile apps and blacklist the ips on the user choice. Attatched to cloudfront and load balancer usually.
+
+### AWS CLOUD HSM
+Hardware physical assets to store encrypted keys and passwords on memory rather than the disk. It is of single tenant type. Has option of backup, patching and high availability.
+
 
 ------------------------------------
 
