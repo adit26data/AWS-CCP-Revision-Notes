@@ -52,3 +52,9 @@ Amazon Virtual Private Cloud is basically a service that helps in provisioning l
 
 **13. AWS direct connect**
 It helps in connecting datacenters privately to AWS regions and provide a better networking experience.
+
+**14. ROUTE 53**
+A fully managed DNS resolution service by AWS that helps in rerouting the end users to end locations and internet applications by translating web page names to numeric ip addresses. Compliant with both ipv4 and ipv6 addresses. Features network traffic and is also good for DOMAIN NAME REGISTRATION.
+
+**15.AWS CloudFront**
+A high speed and high availability content delivery network service that makes use of edge location and edge caches with route 53 geolocation routing to deliver content to its end users.
