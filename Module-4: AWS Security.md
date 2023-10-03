@@ -3,9 +3,9 @@
 The CIA triad ie the confidentiality of data, integrity of the data, systems and the environment and availability of the services are key considerations to be made while planning the security of any IT infrastructure implementation. 
 When it comes to AWS security , the shared responsibility model is followed
 ### SHARED RESPONSIBILITY MODEL
-It states that some aspects of AWS are to be handled by Amazon and some aspects of security are to be handled by the customer. Responsible for logging, audititing, network intrustion detection and virtualisation infrastructure instance isolation.
+It states that some aspects of AWS are to be handled by Amazon and some aspects of security are to be handled by the customer. 
 #### Security of the cloud: 
-Means that the CSP is responsible for the physical security of datacenters, the services being provided, the edge locations and the availability zones. The CSP is focused in SECURING THE CLOUD
+Means that the CSP is responsible for the physical security of datacenters, the services being provided, the edge locations and the availability zones. The CSP is focused in SECURING THE CLOUD.Responsible for logging, audititing, network intrustion detection and virtualisation infrastructure instance isolation.
 #### Security in the cloud:
 Means that the customer is responsible for what is deployed and stored in the cloud based environments and is accountable for encryption, configurations, OS , firewalls, network configurations, IAM policies,server and client safety , patching, maintainance and account management.
 
