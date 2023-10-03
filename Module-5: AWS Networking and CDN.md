@@ -40,4 +40,7 @@ By default the VPC instance cannot communicate with your own remote private netw
 It helps in connecting datacenters privately to AWS regions and provide a better networking experience.
 
 ### VPC Endpoints
+We need to connect the VPC resources to their target regional services and for that we need VPC Enfpoints that is used to connect privately to them. They are of 2 types- Gateways and Interfaces.
 
+### AWS Transit Gateway
+A fully Managed AWS TRANSIT HUB where we can connect multiple VPCs together and connect on premises networks as well. The topology is a hub here and performance depends on the number of connections.
