@@ -1,6 +1,6 @@
 ## Chapter 3
 
-### AWS global infrastructure
+### AWS Global Infrastructure
 This is a model that is designed to provide flexible, scalable, reliable and secure cloud computing environment to the end users and give high quality services with high global network performance. It is basically an interconnection of physical hardware and datacenters.
 It is structured as:
 
@@ -93,19 +93,19 @@ A fully managed service that helps in controlling data satellite communication a
 
     g. AWS TRANSIT GATEWAY: service that connects VPCs to on premises network using a primary managed gateway
 
-5.**SECURITY SERVICES**
+5. **SECURITY SERVICES**
 
-   a. AWS IAM: service that helps in access control to various AWS services from various accounts
+    a. AWS IAM: service that helps in access control to various AWS services from various accounts
 
-   b. AWS Organisations: Helps in implementing similiar IAM policies to all the user accounts under a primary account and also helps in consolidated billing
+    b. AWS Organisations: Helps in implementing similiar IAM policies to all the user accounts under a primary account and also helps in consolidated billing
 
-   c. AWS Cognito: Add user authentication and authorization to web and mobile apps
+    c. AWS Cognito: Add user authentication and authorization to web and mobile apps
 
-   d. AWS Artifact: provides on demand AWS security and compliance reports and online agreements
+    d. AWS Artifact: provides on demand AWS security and compliance reports and online agreements
 
-   e. AWS KEY MANAGEMENT SYSEM OF AWS KMS: responsible for creation, management and security of encryption keys
+    e. AWS KEY MANAGEMENT SYSEM OF AWS KMS: responsible for creation, management and security of encryption keys
 
-   f. AWS Shield: safeguards AWS environment from DDOS attacks
+    f. AWS Shield: safeguards AWS environment from DDOS attacks
 
 6. **AWS COST MANAGEMENT SERVICES**
 
@@ -113,8 +113,24 @@ A fully managed service that helps in controlling data satellite communication a
 
     b. AWS COST EXPLORER: an automated service that helps in cost optimisation by helping in visual analysis and management of the AWS cost and usage.
 
-    c. AWS COST AND USAGE REPORTS: 
+    c. AWS COST AND USAGE REPORTS: helps in generating detailed analytical report on the past budgets, billing data and pricing and how we can lower the cost for the future
 
+    d. AWS PRICING CALCULATOR:Responsible for calculating and estimating the monthly costs, estimating the optimised lower costs and how we can reduce them. Explore the price points and determine the available instances that we might need in the future as well. It is a free tool and is used for helping in cloud migration
+
+
+7. **AWS GOVERANCE AND MANAGEMENT SERVICES**
+
+   a. AWS Cloudwatch: helps in monitoring the services, their levels and the deployed applications
+
+   b. AWS Config: service that helps tracking resources and inventory changes
+
+   c. AWS Trusted Advisor
+
+   d. AWS WAT: helps in reviewing the architectural tools and improve the workload
+
+   e. AWS CloudTrail: tracks user activity and API usage across AWS accounts.
+
+   f. AWS Outposts:AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location. Basically server racks in the data centers are provided here.
      
    
 
