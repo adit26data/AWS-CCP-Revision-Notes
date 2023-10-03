@@ -44,3 +44,25 @@ We need to connect the VPC resources to their target regional services and for t
 
 ### AWS Transit Gateway
 A fully Managed AWS TRANSIT HUB where we can connect multiple VPCs together and connect on premises networks as well. The topology is a hub here and performance depends on the number of connections.
+
+------------------------
+When it comes to VPC security you can use-
+1. Network ACLs- These are created at the subnet level and have a one to one relation with them. Specify ports and protocols. Either a custom or a default ACL is used for a VPC instance.
+2. Firewalls- virtual firewalls at instance levels. Control outbound and inbound traffic. By default the security groups are sealed shut to inbound traffic.Only outbound is allowed. Stateful in nature.
+
+
+### ROUTE 53
+A fully managed DNS resolution service by AWS that helps in rerouting the end users to end locations and internet applications by translating web page names to numeric ip addresses. Compliant with both ipv4 and ipv6 addresses. Features network traffic and is also good for DOMAIN NAME REGISTRATION.
+It is used in cases of -
+
+1.Simple Routing
+2.Weighted Routing
+3.Geoproximity Routing[based on resource location]
+4.Geolocation Routing[based on user location]
+5.latency routing
+6.failover routing[for redirecting to redundant zones in case of data failure or some primary resource failure]
+7.multivalue answer routing
+
+### AWS CloudFront
+A high speed and high availability content delivery network service that makes use of edge location and edge caches with route 53 geolocation routing to deliver content to its end users.
+
