@@ -46,3 +46,9 @@ Users have access to AWS compliance reports and documents on demand and also hav
 **11.AWS CONFIG:**
 
 Utilise to analyse, assess, audit and evaluate the AWS configurations and keep a history of all the modifications made. It simplifies all the compliance requirements to be met by the user and the AWS and also does security analysis.
+
+**12. Amazon VPC**
+Amazon Virtual Private Cloud is basically a service that helps in provisioning logically isolated section of the AWS cloud where you can deploy your resources and run them in a virtual private network that you can define. This gives you control over the range of ip addresses selected, networking configurations, subnet creation and configuration of network gateways. It helps in creating subnets under a AZ that can have private and public nature. VPC is basically Virtual Private Cloud that is user controlled and defined. The ipv4 and ipv6 addresses supported here help in communication between the VPC instance and also over the internet.
+
+**13. AWS direct connect**
+It helps in connecting datacenters privately to AWS regions and provide a better networking experience.
