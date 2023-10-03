@@ -38,7 +38,7 @@ GovCloud is basically a CSP that provides customised cloud computing environment
 ### AWS ground station
 A fully managed service that helps in controlling data satellite communication and processes and scales your data and operations without having to build the physical infrastructure of the work station. Used in weather forecasting, surface imaging etc.
 
-### AWS services Overview
+### AWS Core services Overview
 1. **STORAGE SERVICES**
    
     a. AWS SIMPLE STORAGE SERVICE OR AWS S3: elastic, scalable, secure and reliable storage service by AWS
@@ -51,5 +51,70 @@ A fully managed service that helps in controlling data satellite communication a
 
 2. **COMPUTE SERVICES**
 
+    a. AWS ELASTIC COMPUTE OR AWS EC2: provides resizable compute capacity as VMs in the cloud
+
+    b. AWS EC2 SCALING: provides the facilities of adding/removing the EC2 instances based on the needs
+
+    c. AWS ELASTIC CONTAINER SERVICE OR AWS ECS: fully managed container orchestration service that stores, deploys and manages docker images
+
+    d. AWS ELASTIC CONTAINER REGISTRY OR AWS ECR: fully managed service that acts as a container registry system for docker images
+
+    e. AWS ELASTIC BEANSTALK: a web app hosting service
+
+    f. AWS LAMBDA: a serverless compute option that helps in running code without need to provision or manage servers
+
+    g. AWS ELASTIC KUBERNETES SERVICE OR AWS EKS: container orchesteration service making use of kubernetes engine
+
+    h. AWS FARGATE: an EC2 engine that supports containers without server and cluste management
+
+3. **DATABASE SERVICES**
+
+    a. AWS RDS : a fully automated, reliable and scalable RDBMS service on AWS
+
+    b. AWS Aurora: a fully managed service supporting mysql and postgresql dbs
+
+    c. AWS Redshift: a fully managed service that runs queries for analytics against petabytes of locally stored AWS data
+
+    d. AWS dynamoDB: a fully elastic NoSQL db service for key-value and document type of storage with security, in memory caching and recoverability.
+
+4. **NETWORKING SERVICES**
+
+    a. Amazon VPN: service that helps in creation of private networks for business to increase their network experience and provide security
+
+    b. Route 53: A DNS service that routes end users to internet applications making use of edge locations and translates the website domain names to registered ip addresses.
+
+    c. Amazon VIRTUAL PRIVATE CONTAINERS OR VPCs: A fully managed service provisions isolated sections of the cloud to store resources and launch them in the virtual network
+
+    d. AWS DIRECT CONNECT: Service that helps in creating a direct private tunnel between the data center and AWS to support better networking
+
+    e. AWS ELASTIC LOAD BALANCER: A fully managed service that helps in traffic distribution
+
+    f. AWS Cloudfront: secure content delivery service
+
+    g. AWS TRANSIT GATEWAY: service that connects VPCs to on premises network using a primary managed gateway
+
+5.**SECURITY SERVICES**
+
+   a. AWS IAM: service that helps in access control to various AWS services from various accounts
+
+   b. AWS Organisations: Helps in implementing similiar IAM policies to all the user accounts under a primary account and also helps in consolidated billing
+
+   c. AWS Cognito: Add user authentication and authorization to web and mobile apps
+
+   d. AWS Artifact: provides on demand AWS security and compliance reports and online agreements
+
+   e. AWS KEY MANAGEMENT SYSEM OF AWS KMS: responsible for creation, management and security of encryption keys
+
+   f. AWS Shield: safeguards AWS environment from DDOS attacks
+
+6. **AWS COST MANAGEMENT SERVICES**
+
+    a. AWS BUDGETS: an automated service that helps in billing process, tracking usage and monitoring costs associated to each service being used with analysis of past expenditure and forecasted budgets
+
+    b. AWS COST EXPLORER: an automated service that helps in cost optimisation by helping in visual analysis and management of the AWS cost and usage.
+
+    c. AWS COST AND USAGE REPORTS: 
+
+     
    
 
