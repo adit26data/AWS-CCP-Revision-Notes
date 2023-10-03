@@ -130,7 +130,7 @@ A fully managed service that helps in controlling data satellite communication a
 
    e. AWS CloudTrail: tracks user activity and API usage across AWS accounts.
 
-   f. AWS Outposts:AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location. Basically server racks in the data centers are provided here.
+   f. AWS Outposts:AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location. Basically server racks in the data centers are provided here that are fully managed by the AWS and are basically to provide virtual AWS infrastructure at your own building
      
    
 
