@@ -41,8 +41,22 @@ AWS services of the compute type help in deploying several applications across t
    i. **identify/create key pairs**
      AWS EC2 instances use the public key cryptography system for encryption and decryption. This enables the secure connection when this key pair is made publicly available.
 
+### AWS EC2 PRICING MODELS
+We have various pricing models based on instance types:
 
-## AWS CONTAINER SERVICES
+1. on demand instances: for flexible and cheap workloads. Pay by the hour model of pricing. Mainly for spiky workloads as well.
+2. spot instances: based on spot price and how long they are available. For dynamic and large scale workloads like big data, API backends etc.
+3. reserved and scheduled reserved instances: for long term workloads, with 1-3 yr planned prices.
+4. dedicated hosts and dedicated instances: compliance and regulatory requirements like license tracking. No upfront payment.
+
+4 factors for cost optimisation in ec2 instances are:
+1. size
+2. storage choice
+3. price model choice
+4. instance choice and increased elasticity
+
+
+### AWS CONTAINER SERVICES
 
        
         
