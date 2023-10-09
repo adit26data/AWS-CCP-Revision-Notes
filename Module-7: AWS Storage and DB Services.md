@@ -25,4 +25,9 @@ There are several classes to the S3:
 ### AWS EFS
 Its a fully managed storage service that is beneficial for running analytical queries against petabytes of locally stored data in AWS. Implements storage that can be accessed by multiple ec2 instances over the cloud at once. Uses networked filed system for its implementation. Highly durable and scalable in nature.
 
+### AWS S3 Glacier
+It is a low cost storage solution by AWS for data archiving and long term backups of infrequently accessed data.. Provides 11 9's reliability and has encryption and vault-enforced access policy as well. It has 3 options for retrieval: expidited, standard and bulk.
+The data retrieval is not immediate and takes time. 
+Each vault has a vault access and vault lock policies.
+Use cases involve: health data archiving, scientific data archiving, media asset archiving and digital preservation. Uses RESTful API and SDK(java and .NET) along with the CLI and console.
 
