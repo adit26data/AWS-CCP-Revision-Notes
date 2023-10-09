@@ -31,3 +31,27 @@ The data retrieval is not immediate and takes time.
 Each vault has a vault access and vault lock policies.
 Use cases involve: health data archiving, scientific data archiving, media asset archiving and digital preservation. Uses RESTful API and SDK(java and .NET) along with the CLI and console.
 
+
+**When it comes to database services by AWS we have:**
+
+### AWS RDS
+AWS relational databse service is a fully cloud managed service that runs compatible MySQL/PostGreSQL/msSQL/Oracle/MariaDB in a cloud based environment woth automatic scaling.
+This service is fast and simple to use as you have to only focus on cloud optimisation and not on other administrative access.
+We also have database instances as the building blocks of the RDS and we can run several instances in this isolated environments.
+We can configure RDS as-
+1. run in VPC with a private subnet
+2. generate standby copy of the db instance with synchronous replication in multiple AZ in the VPC for high availability feature
+3. Read replicas for 6 engines where asynchronous replication is done.
+
+Generally used for ecommerce apps, mobile apps and gaming apps where complex queries can be made and not simple PUT/GET requests. Should not be used in case of high sharded data and high read/write rates.
+Clock hour billed pricing model.
+
+### Amazon dynamoDB
+A NoSQL service provided by the cloud with unlimited storage and low latency. Key value and file based DB. 
+
+### Amazon RedShift
+A CLASSIC AWS data warehousing service utilising SQL to run analytic queries against petabytes of data using columnar storage, parallel processing and query optimisation. The parallel processing is done using leader and compute nodes where the leader nodes assign the tasks to the compute nodes and integrate them on completion. Automates the management and monitoring of the nodes with strong encryption is also provided. Compatible with JDBC AND ODBC.
+
+### Amazon Aurora
+Enterprise class RDMS by AWS. MySQL/PostGreSQL compatible and mainly for automating time consuming tasks. Highly available, resilient, backed up, subsystem based and scalable in nature. Data is backed in S3.
+
