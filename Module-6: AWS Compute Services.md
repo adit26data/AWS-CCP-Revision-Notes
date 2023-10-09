@@ -58,6 +58,23 @@ We have various pricing models based on instance types:
 
 ### AWS CONTAINER SERVICES
 
+Containers are basically virtualises OS to quicky deploy applications without in regard for the environment. The containers run virtualised OS as resource isolated processes and are faster to launch and terminate than the VMs. A VM runs on hypervisor while a container runs on OS if the docker daemon is present with the right configurations. An active container based deployment can have one EC2 instance running multiple containers.
+
+#### AWS ELASTIC CONTAINER SERVICE
+AWS ECS is a container orchestration service that supports docker images, their execution, their management and deployment with automated administration. The features are - EBS , Load Balancing, EC2 Sec groups and IAM rules. We can specify the number of tasks to be run on the AWS ECS as well and we can group them in form of clusters for their easy management. We can have container based deployment backed by  EC2 instances or by AWS Fargate.
+
+#### AWS ELASTIC KUBERNETES SERVICE
+AWS EKS is an open source kubernetes conformant service that supports docker images, their execution and storage and administration. Supports Kubernetes tools and other related popular add ons.
+
+#### AWS ECR
+AWS Elastic container registry is basically a registry service for maintaining, storing, deploying and executing docker images on a larger scale with access control, third party management, team collaboratin and ECS integration.
+
+#### AWS Lambda
+AWS Lamda is a serverless compute option that runs code without having to provision servers and clusters by the user. Supports multiple languages and has built in fault tolerance thanks to distributed functions. Has pay per use pricing. Usin g step function it can be used to create long running backend processes. Can be accessed by CLS, SDK and Lambda console. They are activated by the means of triggers. We can configure each lamda function for a variety of parameters. They are monitored using CloudWatch.
+
+#### AWS Elastic Beanstalk
+AWS Elastic Beanstalk is a fully managed hosting service for web apps with inbuilt provisioning, logging,load balancing, scaling, health checks, analysis and debugging abilities.  Fast and simple and development compatible service.
+
        
         
 
