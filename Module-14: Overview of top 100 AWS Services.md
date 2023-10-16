@@ -62,3 +62,11 @@ A fully managed DNS resolution service by AWS that helps in rerouting the end us
 **15.AWS CloudFront**
 
 A high speed and high availability content delivery network service that makes use of edge location and edge caches with route 53 geolocation routing to deliver content to its end users.
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSedAmf77MGS7FGEaylFzY51KtBd7kkIZJIMDsV5zSRSmpKIOA/viewform?pli=1&fbzx=6241653816939067775
+https://github.com/05saitejaswi/CLF-P01---AWS-Certified-Cloud-Practitioner---Practice-
+https://github.com/kananinirav/AWS-Certified-Cloud-Practitioner-Notes/tree/master/practice-exam
+https://github.com/kananinirav/AWS-Certified-Cloud-Practitioner-Notes/blob/master/practice-exam/exams.md
+
+
